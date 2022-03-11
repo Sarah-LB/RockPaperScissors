@@ -1,10 +1,8 @@
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">Rock Paper Scissors</h1>
 
 [View the live project here.](https://codeinstitute.net)
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
-
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+This site has been created for my Milestone Project 2: Interactive Frontend Development.  It is an online Rock Paper Scissotrs game for the purpose of having fun!
 
 ## User Experience (UX)
 
@@ -12,28 +10,29 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn how to play the game.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        3. As a First Time Visitor, I want to locate the social media links to see their followings on social media and find any other games that are available.
 
-    -   #### Returning Visitor Goals
+    -   #### Returning Visitor and Frequent User Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor, I want to play and have fun.
+        2. As a Returning Visitor, I want to see if my top score from my last visit is still on the leaderboard.
+        3. As a Returning Visitor, I want to find social media links.
 
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+    -   #### Developer and Site Owner Goals
+
+        1. As a Developer/Site Owner, I want to build an interactive frontend site.
+        2. As a Developer/Site Owner, I want to have fun playing on the game and attempting to get on the leaderboard.
+        3. As a Returning Visitor, I want to make my social media links accessible in order to promote any other games I build.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The two main colours used in Rock Paper Scissors are a warm dark orange and deep purpley blue.  These were inspired by the [Adobe Color library](https://color.adobe.com/trends/Game-design).  Yellow is associated with playfulness, happiness and fun, which suggests it would promote appropriate emotions in the user.  Blue promotes relaxation whilst orange symbolises energy, friendliness and action.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't being imported into the site correctly. Roboto is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a fun, energetic and playful aesthetic.
 
 *   ### Wireframes
 
@@ -55,6 +54,7 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScipt](https://www.javascript.com/)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -83,6 +83,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [JavaScript Validator](https://jshint.com/) - [Results]()
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -211,11 +212,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
+-   The README code was taken from the [Code Institute Sample ReadMe](https://github.com/Code-Institute-Solutions/SampleREADME/commit/982e3b0e0086ced89d9a643d9e4d9d0c6f938ec2) and adapted.
+
 ### Content
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   Psychological properties of colours text in the README.md was found [here](https://www.trajectorywebdesign.com/blog/web-design-color-psychology/)
 
 ### Media
 
@@ -225,4 +228,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   My Mentor for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+-   Tutor support at Code Institute for their guidance.
