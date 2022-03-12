@@ -214,6 +214,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The README code was taken from the [Code Institute Sample ReadMe](https://github.com/Code-Institute-Solutions/SampleREADME/commit/982e3b0e0086ced89d9a643d9e4d9d0c6f938ec2) and adapted.
 
+-   [Box shadows](https://getcssscan.com/css-box-shadow-examples): Used code to put box shadows on buttons on index.html page.
+
 ### Content
 
 -   All content was written by the developer.

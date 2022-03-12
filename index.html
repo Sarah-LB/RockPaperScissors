@@ -21,25 +21,39 @@
     <header>
 
     </header>
-    <main>
+    <main class="bg-color-main">
         <div class="row no-gutters">
-            <h1 class="col-12">Rock Paper Scissors</h1>
+            <div class="col-12">
+                <h1 class="logo-header">Rock Paper Scissors</h1>
+            </div>
         </div>
         <div class="row no-gutters justify-content-center">
-            <a href="game.html" class="btn col-2" role="button">Play Game</a>
+            <div class="col-2 game-select">
+                <a href="game.html" class="btn" role="button">Play Game</a>
+            </div>
         </div>
         <div class="row no-gutters justify-content-center">
-            <a href="rules.html" class="btn col-2" role="button">How to Play</a>
+            <div class="col-2 game-select">
+                <a href="rules.html" class="btn" role="button">How to Play</a>
+            </div>
         </div>
-        <div class="row no-gutters">
-            <img src="assets/images/rock.jpg" alt="rock" class="col-4">
-            <img src="assets/images/paper.jpg" alt="paper" class="col-4">
-            <img src="assets/images/scissors.jpg" alt="scissors" class="col-4">
+        <div class="row no-gutters row-image">
+            <div class=" col-4">
+                <img src="assets/images/rock.jpg" alt="rock" class="play-image float-right">
+            </div>
+             <div class=" col-4">
+                <img src="assets/images/paper.jpg" alt="paper" class="play-image mx-auto d-block">
+             </div>
+            <div class=" col-4">
+                <img src="assets/images/scissors.jpg" alt="scissors" class="play-image float-left">
+            </div>
         </div>
     </main>
     <footer>
-        <div class="row bg-color-footer">
-            <h2 class="col-12">© Copyright 2021 Rock Paper Scissors. All Rights Reserved</h2>
+        <div class="row no-gutters bg-color-footer content-footer">
+            <div class= "col-12 align-self-center">
+                <h2>© Copyright 2021 Rock Paper Scissors. All Rights Reserved</h2>
+            </div>
         </div>
     </footer>
 </body>
