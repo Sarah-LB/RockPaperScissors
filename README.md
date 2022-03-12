@@ -216,6 +216,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Box shadows](https://getcssscan.com/css-box-shadow-examples): Used code to put box shadows on buttons on index.html page.
 
+-   Navbar code taken from [W3 Schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp) and edited.
+
 ### Content
 
 -   All content was written by the developer.
