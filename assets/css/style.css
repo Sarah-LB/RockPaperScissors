@@ -113,6 +113,16 @@ main {
     text-align: center;
 }
 
+.row-rule-images {
+    padding: 10px 0 10px 0;
+}
+
+.rule-image {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
 
 /*-----------------------------------------------------------Footer*/
 
