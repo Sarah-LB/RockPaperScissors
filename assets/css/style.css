@@ -93,6 +93,27 @@ main {
     text-align: center;
 }
 
+/*-----------------------------------------------------------rules.html*/
+
+.rules-list {
+    margin-top: 30px;;
+}
+
+.rules-list li{
+    color:#A63348;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
+}
+
+.rules-header {
+    color:#5259D9;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
 /*-----------------------------------------------------------Footer*/
 
 .content-footer {
