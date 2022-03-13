@@ -1,13 +1,9 @@
 $(".play-image").click(function(){
-    console.log("hello");
     if ($(this).attr("id")==="rock") {
-        console.log("rock");
         $("#player-move").css("background-image", "url('assets/images/rock.jpg')");
     } else if ($(this).attr("id")==="paper") {
-        console.log("paper");
         $("#player-move").css("background-image", "url('assets/images/paper.jpg')");
     } else if ($(this).attr("id")==="scissors") {
-        console.log("scissors");
         $("#player-move").css("background-image", "url('assets/images/scissors.jpg')");
     } else {
         console.log("none");
@@ -15,10 +11,13 @@ $(".play-image").click(function(){
     }
 });
 
-/*$(".play-image").hover(function(){
-    $("h2").css("background", "lightblue");
-});*/
+$(".play-image").mouseenter(function(){
+    $(this).css({"width": "250px", "height": "250px"});
+});
 
+$(".play-image").mouseleave(function(){
+    $(this).css({"width": "200px", "height": "200px"});
+});
 
 
 

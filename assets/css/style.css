@@ -119,6 +119,8 @@ main {
 #player-move {
     color:#5259D9;
     background-image: none;
+    background-position: center;
+    background-size: cover;
 }
 
 #computer-move {
