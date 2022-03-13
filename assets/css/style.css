@@ -12,7 +12,8 @@
 /*-----------------------------------------------------------Index.html*/
 
 main {
-    height: 95vh;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .logo-header {
@@ -23,6 +24,10 @@ main {
     padding: 50px 0;
 }
 
+.game-select {
+    text-align: center;
+}
+
 .game-select a {
     font-size: 30px;
     color: #5259D9;
@@ -31,11 +36,11 @@ main {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-family: 'Patrick Hand', cursive;
     width: 200px;
-    margin: 20px;
+    margin: 30px 0;
 }
 
 .row-image {
-    padding: 50px 0 30px 0;
+    padding: 80px 0 20px 0;
 }
 
 .play-image {
@@ -81,13 +86,19 @@ main {
     border: 5px solid #5259D9;
     width: 300px;
     height: 300px;
-    margin: 100px 0 30px 0;
+    margin: 100px 0 0 0;
     background: transparent;
 }
 
 .score-line {
     color:#A63348;
-    margin: 100px 0 0 0;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    text-align:left;
+}
+
+.streak-line {
+    color:#A63348;
     font-family: 'Patrick Hand', cursive;
     font-size: 30px;
     text-align: center;
@@ -96,7 +107,7 @@ main {
 /*-----------------------------------------------------------rules.html*/
 
 .rules-list {
-    margin-top: 30px;;
+    margin: 30px 0;
 }
 
 .rules-list li{
@@ -135,15 +146,21 @@ main {
 /*-----------------------------------------------------------Footer*/
 
 .content-footer {
-    height: 5vh;
     margin: 0;
     padding: 0;
 }
 .content-footer h2 {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     color: #fff;
+}
+
+/*-----------------------------------------------------------Media Queries*/
+
+@media (max-width: 767px) {
+    .play-image {width: 100px; height: 100px;}
+    .move {width: 100px; height: 100px; margin: 100px 0 30px 0;}
 }
