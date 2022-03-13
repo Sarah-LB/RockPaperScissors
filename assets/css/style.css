@@ -24,7 +24,7 @@ main {
     padding: 50px 0;
 }
 
-.game-select {
+.game-select, .start-again, .start-again-small{
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ main {
 }
 
 .row-image {
-    padding: 80px 0 20px 0;
+    padding: 20px 0 20px 0;
 }
 
 .play-image {
@@ -83,7 +83,7 @@ main {
 /*-----------------------------------------------------------Game.html*/
 
 .move {
-    border: 5px solid #5259D9;
+    border: 5px solid;
     width: 300px;
     height: 300px;
     margin: 100px 0 0 0;
@@ -104,11 +104,47 @@ main {
     text-align: center;
 }
 
-/*-----------------------------------------------------------rules.html*/
-
-.rules-list {
-    margin: 30px 0;
+.score {
+    text-align: center;
 }
+
+#player-score {
+    color:#5259D9;
+}
+
+#computer-score {
+    color: #F2620F;
+}
+
+#player-move {
+    color:#5259D9;
+}
+
+#computer-move {
+    color: #F2620F;
+}
+
+.start-again a {
+    font-size: 22px;
+    color:#A63348;
+    background-color:#F2C53D;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.start-again-small a {
+    font-size: 22px;
+    color:#A63348;
+    background-color:#F28705;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+/*-----------------------------------------------------------rules.html*/
 
 .rules-list li{
     color:#A63348;
@@ -148,6 +184,7 @@ main {
 .content-footer {
     margin: 0;
     padding: 0;
+    min-height:25px;
 }
 .content-footer h2 {
     font-size: 14px;
