@@ -30,9 +30,9 @@ This site has been created for my Milestone Project 2: Interactive Frontend Deve
     -   #### Colour Scheme
         -   The two main colours used in Rock Paper Scissors are a warm dark orange and deep purpley blue.  These were inspired by the [Adobe Color library](https://color.adobe.com/trends/Game-design).  Yellow is associated with playfulness, happiness and fun, which suggests it would promote appropriate emotions in the user.  Blue promotes relaxation whilst orange symbolises energy, friendliness and action.
     -   #### Typography
-        -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't being imported into the site correctly. Roboto is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Patrick Hand font is the main font used throughout the whole website with Cursive as the fallback font in case the font isn't being imported into the site correctly. Patrick Hand is a clean and clear font with the casual hand-written style adding a more fun and friendly feel.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a fun, energetic and playful aesthetic.
+        -   Imagery is important. The large, game play images are designed to be striking and catch the user's attention. The bright, bold background has a fun, energetic and playful aesthetic.
 
 *   ### Wireframes
 

@@ -46,9 +46,41 @@
                 <!-- box for player move -->
                 <div class="move mx-auto"></div>
             </div>
-            <div class="col-2">
+            <div class="col-2 score-line">
                 <!-- score line -->
-                <h2 class="score-line">Score</h2>
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <h2>Score</h2>
+                    </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-6 score-area">
+                        <p><span id="player-score">0</span></p>
+                    </div>
+                    <div class="col-6 score-area">
+                        <p><span id="computer-score">0</span></p>
+                    </div>
+                </div>
+
+                
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Your current streak</h2>
+                    </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-12 score-area">
+                        <p><span id="current-streak">0</span></p>
+                    </div>
+                </div>
+
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-12 game-select">
+                        <a href="#" class="btn" role="button">Start again</a>
+                    </div>
+                </div>
             </div>
             <div class="col-5">
                 <!-- box for computer move -->
@@ -75,5 +107,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>

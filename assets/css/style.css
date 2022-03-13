@@ -87,7 +87,7 @@ main {
 
 .score-line {
     color:#A63348;
-    margin: 200px 0 30px 0;
+    margin: 100px 0 0 0;
     font-family: 'Patrick Hand', cursive;
     font-size: 30px;
     text-align: center;
@@ -103,6 +103,11 @@ main {
     color:#A63348;
     font-family: 'Patrick Hand', cursive;
     font-size: 24px;
+    padding: 5px;
+}
+
+#hierarchy {
+    font-size: 28px;
 }
 
 .rules-header {
@@ -123,6 +128,9 @@ main {
     height: 90px;
 }
 
+#leaderboard-link {
+    color:#A63348;
+}
 
 /*-----------------------------------------------------------Footer*/
 
