@@ -1,4 +1,23 @@
-const SYMBOL_CONFIG = [
+$(".play-image").click(function(){
+    if (id==="rock") {
+        $("#player-move").css("background-image", "url('assets/images/rock.jpg')");
+    } else if (id==="paper") {
+        $("#player-move").css("background-image", "url('assets/images/paper.jpg')");
+    } else if (id==="scissors") {
+        $("#player-move").css("background-image", "url('assets/images/scissors.jpg')");
+    } else {
+        $("#player-move").css("background-image", "none");
+    }
+});
+
+/*$(".play-image").hover(function(){
+    $("h2").css("background", "lightblue");
+});*/
+
+
+
+
+/*const SYMBOL_CONFIG = [
     {
         id: 'rock',
         name: 'Rock',
@@ -37,4 +56,4 @@ function checkIfPlayerWins(playerChoice, computerChoice) {
          // Show computer won
          computerScore++;
     }
-}
+}*/
