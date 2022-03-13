@@ -44,7 +44,8 @@ main {
     height: 200px;
 }
 
-/*-----------------------------------------------------------Game.html*/
+/*-----------------------------------------------------------Navbar*/
+
 .navbar {
     background-color: #5259D9;
 }
@@ -64,6 +65,17 @@ main {
     font-family: 'Patrick Hand', cursive;
     font-size: 22px;
 }
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.navbar-toggler-icon {
+    color:#F2C53D;
+}
+
+
+/*-----------------------------------------------------------Game.html*/
 
 .move {
     border: 5px solid #5259D9;
