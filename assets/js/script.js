@@ -1,11 +1,16 @@
 $(".play-image").click(function(){
-    if (id==="rock") {
+    console.log("hello");
+    if ($(this).attr("id")==="rock") {
+        console.log("rock");
         $("#player-move").css("background-image", "url('assets/images/rock.jpg')");
-    } else if (id==="paper") {
+    } else if ($(this).attr("id")==="paper") {
+        console.log("paper");
         $("#player-move").css("background-image", "url('assets/images/paper.jpg')");
-    } else if (id==="scissors") {
+    } else if ($(this).attr("id")==="scissors") {
+        console.log("scissors");
         $("#player-move").css("background-image", "url('assets/images/scissors.jpg')");
     } else {
+        console.log("none");
         $("#player-move").css("background-image", "none");
     }
 });
