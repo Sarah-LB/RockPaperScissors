@@ -1,3 +1,16 @@
+//hover effect for selecting image
+
+$(".play-image").mouseenter(function(){
+    $(this).css({"width": "250px", "height": "250px"});
+});
+
+$(".play-image").mouseleave(function(){
+    $(this).css({"width": "200px", "height": "200px"});
+});
+
+
+//makes image of selected play appear in player box
+
 $(".play-image").click(function(){
     if ($(this).attr("id")==="rock") {
         $("#player-move").css("background-image", "url('assets/images/rock.jpg')");
@@ -9,17 +22,28 @@ $(".play-image").click(function(){
         console.log("none");
         $("#player-move").css("background-image", "none");
     }
+    runGame();
 });
 
-$(".play-image").mouseenter(function(){
-    $(this).css({"width": "250px", "height": "250px"});
-});
+//The main game "loop", called when the player chooses their move
 
-$(".play-image").mouseleave(function(){
-    $(this).css({"width": "200px", "height": "200px"});
-});
+function runGame() {
 
+    symbols = ["rock", "paper", "scissors"]
+    var computerMove = symbols[Math.floor(Math.random()*symbols.length)];
+    console.log(computerMove);
 
+    if ($("#player-move").css("background-image")!=="none" && computerMove === "scissors") {
+        $("#computer-move").css("background-image", "url('assets/images/scissors.jpg')");
+    } else if ($("#player-move").css("background-image")!=="none" && computerMove === "rock") {
+        $("#computer-move").css("background-image", "url('assets/images/rock.jpg')");
+    } else if ($("#player-move").css("background-image")!=="none" && computerMove === "paper") {
+        $("#computer-move").css("background-image", "url('assets/images/paper.jpg')");
+    } else {
+        $("#computer-move").css("background-image", "none");
+    }
+
+}
 
 /*const SYMBOL_CONFIG = [
     {
