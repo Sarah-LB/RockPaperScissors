@@ -226,7 +226,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were created by the developer.
+-   Rock image created by [macrovector](https://www.freepik.com/macrovector) and sourced from [Freepik](https://www.freepik.com/vectors/clip-art)
+-   Paper image created by [brgfx](https://www.freepik.com/brgfx) and sourced from [Freepik](https://www.freepik.com/vectors/clip-art)
+- Scissors image created by [brgfx](https://www.freepik.com/brgfx) and sourced from [Freepik](https://www.freepik.com/vectors/clip-art)
 
 ### Acknowledgements
 

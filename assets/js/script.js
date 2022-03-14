@@ -1,7 +1,7 @@
 //hover effect for selecting image
 
 $(".play-image").mouseenter(function(){
-    $(this).css({"width": "250px", "height": "250px"});
+    $(this).css({"width": "210px", "height": "210px"});
 });
 
 $(".play-image").mouseleave(function(){
