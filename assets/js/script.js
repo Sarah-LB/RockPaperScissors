@@ -9,43 +9,26 @@ $(".play-image").mouseleave(function(){
 });
 
 
-//Player's chosen symbol appears in player box
+//Player's chosen symbol  and random computer symbol appear in play boxes
 
 $(".play-image").click(function(){
+    var playerMove;
 
     if ($(this).attr("id")==="rock") {
         $("#player-move").css("background-image", "url('assets/images/rock.jpg')");
+        playerMove = 'rock';
     } else if ($(this).attr("id")==="paper") {
         $("#player-move").css("background-image", "url('assets/images/paper.jpg')");
+        playerMove = 'paper';
     } else if ($(this).attr("id")==="scissors") {
         $("#player-move").css("background-image", "url('assets/images/scissors.jpg')");
+        playerMove = 'scissors';
     } else {
-        $("#player-move").css("background-image", "none");
+        playerMove = "none";
     }
-    runGame();
-});
-
-
-
-function runGame() {
-
-    //Player move is processed
-    var playerMove;
-
-    if ($("#player-move").css("background-image")==="rock") {
-        playerMove = "rock";
-    } else if ($("#player-move").css("background-image")==="paper") {
-        playerMove = "paper";
-    } else if ($("#player-move").css("background-image")==="scissors") {
-        playerMove = "scissors";
-    } else {
-        playerMove = "none");
-    }
-
-    //Computer move is generated
+    
     symbols = ["rock", "paper", "scissors"]
     var computerMove = symbols[Math.floor(Math.random()*symbols.length)];
-    console.log(computerMove)
 
     if ($("#player-move").css("background-image")!=="none" && computerMove === "scissors") {
         $("#computer-move").css("background-image", "url('assets/images/scissors.jpg')");
@@ -53,13 +36,15 @@ function runGame() {
         $("#computer-move").css("background-image", "url('assets/images/rock.jpg')");
     } else if ($("#player-move").css("background-image")!=="none" && computerMove === "paper") {
         $("#computer-move").css("background-image", "url('assets/images/paper.jpg')");
-    } else {
-        $("#computer-move").css("background-image", "none");
+        return;
     }
 
     checkWhoWins(playerMove, computerMove);
 
-}
+});
+
+
+
 
 const SYMBOL_CONFIG = [
     {
@@ -87,17 +72,23 @@ const SYMBOL_CONFIG = [
 
 function checkWhoWins(playerChoice, computerChoice) {
 
+    let playerScore = parseInt(document.getElementById("player-score").innerHTML);
+    let computerScore = parseInt(document.getElementById("computer-score").innerHTML);
+    let currentStreak = parseInt(document.getElementById("current-streak").innerHTML);
+
     if(playerChoice === computerChoice) {
-        // Show draw and do not increment any ones score
+        alert("It's a draw! Your streak continues!");
+        currentStreak++;
         return;
     }
     const playerChoiceConfig = SYMBOL_CONFIG.find(eachSymbolConfig => eachSymbolConfig.id === playerChoice);
     if(playerChoiceConfig.winsOver === computerChoice) {
         alert("You won! Keep going to increase your streak! :D");
         playerScore++;
+        currentStreak++;
     } else {
-        alert("Oh no, you lost! Try again!");
+        alert("Oh no, you lost! Keep going, try again!");
          computerScore++;
+         currentStreak = 0;
     }
 }
-
