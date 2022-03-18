@@ -13,7 +13,10 @@ $(".play-image").mouseleave(function(){
 
 $(".play-image").click(function(){
     
-    var playerMove;
+    $("#player-move").css("background-image", "");
+    $("#computer-move").css("background-image", "");
+
+    let playerMove;
 
     if ($(this).attr("id")==="rock") {
         $("#player-move").css("background-image", "url('assets/images/rock.jpg')");
@@ -38,13 +41,12 @@ function runGame(playerMove){
     symbols = ["rock", "paper", "scissors"]
     var computerMove = symbols[Math.floor(Math.random()*symbols.length)];
 
-    if ($(this)!=="none" && computerMove === "scissors") {
+    if (playerMove!=="none" && computerMove === "scissors") {
         $("#computer-move").css("background-image", "url('assets/images/scissors.jpg')");
-    } else if ($(this)!=="none" && computerMove === "rock") {
+    } else if (playerMove!=="none" && computerMove === "rock") {
         $("#computer-move").css("background-image", "url('assets/images/rock.jpg')");
-    } else if ($(this)!=="none" && computerMove === "paper") {
+    } else if (playerMove!=="none" && computerMove === "paper") {
         $("#computer-move").css("background-image", "url('assets/images/paper.jpg')");
-        return;
     }
 
     checkWhoWins(playerMove, computerMove);
@@ -58,19 +60,19 @@ const SYMBOL_CONFIG = [
     {
         id: "rock",
         name: "Rock",
-        imgSrc: "<assets/images/rock.jpg>",
+        imgSrc: "assets/images/rock.jpg",
         winsOver: "scissors"
     },
     {
         id: "paper",
         name: "Paper",
-        imgSrc: "<assets/images/paper.jpg>",
+        imgSrc: "assets/images/paper.jpg",
         winsOver: "rock"
     },
     {
         id: "scissors",
         name: "Scissors",
-        imgSrc: "<assets/images/scissors.jpg>",
+        imgSrc: "assets/images/scissors.jpg",
         winsOver: "paper"
     }
 ];
@@ -87,7 +89,7 @@ function checkWhoWins(playerChoice, computerChoice) {
     if(playerChoice === computerChoice) {
         setTimeout(function(){
             alert("It's a draw! Your streak continues!");
-        },10);
+        },500);
         currentStreak++;
         return;
     }
@@ -95,13 +97,13 @@ function checkWhoWins(playerChoice, computerChoice) {
     if(playerChoiceConfig.winsOver === computerChoice) {
         setTimeout(function(){
             alert("You won! Keep going to increase your streak! :D");
-        },10);
+        },500);
         playerScore++;
         currentStreak++;
     } else {
         setTimeout(function(){
             alert("Oh no, you lost! Keep going, try again!");
-        },10);
+        },500);
          computerScore++;
          currentStreak = 0;
     }

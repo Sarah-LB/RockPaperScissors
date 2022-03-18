@@ -148,6 +148,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+### Fixed Bugs
+-   When the player selected their image, the game alerts were appearing before the images.
+-   Paper - return
+
 ### Known Bugs
 
 -   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
