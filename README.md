@@ -149,8 +149,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Fixed Bugs
--   When the player selected their image, the game alerts were appearing before the images.
--   Paper - return
+-   When the player selected their image, the game alerts were appearing before the images.  The image sizes were reduced but this did not solve the issue.  After much research, a Timeout was set to allow the DOM to be updated before the alert is generated.
+-   When the computerChoice was set to paper, the alerts were not appearing.  By logging each variable and play outcome it became apparent that once the computerChoice was set to paper, the rest of the script was not running.  There was a return at the end of the if else statement that needed to be removed.
 
 ### Known Bugs
 
