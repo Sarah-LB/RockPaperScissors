@@ -84,27 +84,33 @@ function checkWhoWins(playerChoice, computerChoice) {
 
     let playerScore = parseInt(document.getElementById("player-score").innerText);
     let computerScore = parseInt(document.getElementById("computer-score").innerText);
-    let currentStreak = parseInt(document.getElementById("current-streak").innerText);
 
     if(playerChoice === computerChoice) {
         setTimeout(function(){
-            alert("It's a draw! Your streak continues!");
+            alert("It's a draw!");
         },500);
-        currentStreak++;
         return;
     }
     const playerChoiceConfig = SYMBOL_CONFIG.find(eachSymbolConfig => eachSymbolConfig.id === playerChoice);
     if(playerChoiceConfig.winsOver === computerChoice) {
         setTimeout(function(){
-            alert("You won! Keep going to increase your streak! :D");
+            alert("You won! Keep going :D");
+            document.getElementById("player-score").innerText=++playerScore;
         },500);
-        playerScore++;
-        currentStreak++;
+        
     } else {
         setTimeout(function(){
             alert("Oh no, you lost! Keep going, try again!");
+            document.getElementById("computer-score").innerText=++computerScore;
         },500);
-         computerScore++;
-         currentStreak = 0;
+        
     }
 }
+
+//start again button
+$("#start-again").click(function(){
+    document.getElementById("player-score").innerText=0;
+    document.getElementById("computer-score").innerText=0;
+    $("#player-move").css("background-image", "");
+    $("#computer-move").css("background-image", "");
+});
