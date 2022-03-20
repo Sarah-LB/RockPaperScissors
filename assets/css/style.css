@@ -88,22 +88,31 @@ main {
     border: 5px solid;
     width: 300px;
     height: 300px;
-    margin: 100px 0 0 0;
+    margin: 0;
     background: transparent;
 }
 
-.score-line {
-    color:#A63348;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 30px;
-    text-align:left;
+.name-line {
+    padding-top: 80px;
 }
 
-.streak-line {
-    color:#A63348;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 50px;
+.name {
     text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+}
+
+#computer-name {
+    color: #F2620F;
+}
+
+#player-name {
+    color:#5259D9;
+}
+
+.score-line h2 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 60px;
 }
 
 .score {
@@ -112,11 +121,19 @@ main {
 
 #player-score {
     color:#5259D9;
+    font-size: 60px;
+}
+
+#colon {
+    color:#A63348;
+    text-align: left;
 }
 
 #computer-score {
     color: #F2620F;
+    font-size: 60px;
 }
+
 
 #player-move {
     color:#5259D9;
@@ -217,7 +234,13 @@ main {
 /*-----------------------------------------------------------Media Queries*/
 
 @media (max-width: 767px) {
+    .name-line {padding-top: 100px;}
     .play-image {width: 100px; height: 100px;}
-    .move {width: 100px; height: 100px; margin: 100px 0 30px 0;}
+    .move {width: 120px; height: 120px; margin: 0;}
     #front-page-image {display: none;}
+    #colon {text-align: right;}
+}
+
+@media (min-width: 768px) and (max-width: 1160px) {
+    .move {width: 180px; height: 180px; margin: 0;}
 }

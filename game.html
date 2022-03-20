@@ -35,9 +35,6 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Leaderboard</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="rules.html">How to play</a>
                 </li>
               </ul>
@@ -46,28 +43,36 @@
 
     </header>
     <main class="bg-color-main">
+        <div class="row no-gutters name-line">
+            <div class="col-6 col-md-4 offset-md-2">
+                <h2 class="name" id="player-name">Player</h2>
+            </div>
+            <div class="col-6 col-md-4">
+                <h2 class="name" id="computer-name">Computer</h2>
+            </div>
+        </div>
         <div class="row no-gutters">
-            <div class="col-6">
+            <div class="col-6 col-md-4 offset-md-2">
                 <!-- box for player move -->
                 <div class="move mx-auto" id="player-move"></div>
             </div>
-            <div class="col-6">
+            <div class="col-6 col-md-4">
                 <!-- box for computer move -->
                 <div class="move mx-auto" id="computer-move"></div>
             </div>
         </div>
         <div class="row no-gutters score-line">
                 <!-- score line -->
-            <div class="col-12 score">
-                <h2>Score <span id="player-score">0</span> : <span id="computer-score">0</span></h2>
+            <div class="col-4 offset-1 offset-md-2 score">
+                <h2 id="player-score">0</h2>
+            </div>
+            <div class="col-1 score">
+                <h2 id="colon">:</h2>
+            </div>
+            <div class="col-6 col-md-2 score">
+                <h2 id="computer-score">0</h2>
             </div>
         </div>
-
-        <div class="row no-gutters streak-line">
-            <div class="col-12">
-                <h2>Your current streak: <span id="current-streak">0</span></h2>
-            </div>
-        </div> 
     
         
         <div class="row no-gutters row-image">
