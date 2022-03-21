@@ -60,7 +60,7 @@ This site has been created for my Milestone Project 2: Interactive Frontend Deve
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the game play icons to enlarge the images while being hovered over.
+    - Hover.css was used on the navbar to change the colour of menu items while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Indie Flower' and 'Patrick Hand' fonts.
 1. [Font Awesome:](https://fontawesome.com/)
@@ -83,6 +83,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 -   [JavaScript Validator](https://jshint.com/)
+-   [HTML, CSS and JavaScript formatter](https://webformatter.com/)
+-   Lighthouse used for responsiveness, compatability, accessibility etc. - [Results]()
 
 ### Testing User Stories from User Experience (UX) Section
 

@@ -1,13 +1,12 @@
 /*-----------------------------------------------------------Colours*/
 
 .bg-color-main {
-    background-color: #F2C53D;
+    background-color: #f2c53d;
 }
 
 .bg-color-footer {
-    background-color: #A63348;
+    background-color: #a63348;
 }
-
 
 /*-----------------------------------------------------------Index.html*/
 
@@ -17,24 +16,25 @@ main {
 }
 
 .logo-header {
-    font-family: 'Indie Flower', cursive;
-    color: #5259D9;
+    font-family: "Indie Flower", cursive;
+    color: #5259d9;
     font-size: 75px;
     text-align: center;
     padding: 60px 0;
 }
 
-.game-select, .start-again {
+.game-select,
+.start-again {
     text-align: center;
 }
 
 .game-select a {
     font-size: 30px;
-    color: #5259D9;
-    background-color: #F28705;
+    color: #5259d9;
+    background-color: #f28705;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Patrick Hand", cursive;
     width: 200px;
     margin: 30px 0;
 }
@@ -43,7 +43,8 @@ main {
     padding: 15px 0 20px 0;
 }
 
-.play-image, .index-image {
+.play-image,
+.index-image {
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -54,23 +55,23 @@ main {
 /*-----------------------------------------------------------Navbar*/
 
 .navbar {
-    background-color: #5259D9;
+    background-color: #5259d9;
     max-height: 60px;
 }
 
 .navbar a:hover {
-    color: #F28705;
+    color: #f28705;
 }
 
 .navbar-brand {
-    color:#F2C53D;
-    font-family: 'Indie Flower', cursive;
+    color: #f2c53d;
+    font-family: "Indie Flower", cursive;
     font-size: 27px;
 }
 
 .nav-link {
-    color:#F2C53D;
-    font-family: 'Patrick Hand', cursive;
+    color: #f2c53d;
+    font-family: "Patrick Hand", cursive;
     font-size: 22px;
 }
 
@@ -79,7 +80,11 @@ main {
 }
 
 .navbar-toggler-icon {
-    color:#F2C53D;
+    color: #f2c53d;
+}
+
+#collapsibleNavbar {
+    background-color: #5259d9;
 }
 
 .socialitem-header {
@@ -91,7 +96,6 @@ main {
     color: #fff;
     padding: 0 5px;
 }
-
 
 /*-----------------------------------------------------------Game.html*/
 
@@ -109,20 +113,20 @@ main {
 
 .name {
     text-align: center;
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Patrick Hand", cursive;
     font-size: 25px;
 }
 
 #computer-name {
-    color: #F2620F;
+    color: #f2620f;
 }
 
 #player-name {
-    color:#5259D9;
+    color: #5259d9;
 }
 
 .score-line h2 {
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Patrick Hand", cursive;
     font-size: 60px;
 }
 
@@ -131,30 +135,29 @@ main {
 }
 
 #player-score {
-    color:#5259D9;
+    color: #5259d9;
     font-size: 60px;
 }
 
 #colon {
-    color:#A63348;
+    color: #a63348;
     text-align: left;
 }
 
 #computer-score {
-    color: #F2620F;
+    color: #f2620f;
     font-size: 60px;
 }
 
-
 #player-move {
-    color:#5259D9;
+    color: #5259d9;
     background-image: none;
     background-position: center;
     background-size: cover;
 }
 
 #computer-move {
-    color: #F2620F;
+    color: #f2620f;
     background-image: none;
     background-position: center;
     background-size: cover;
@@ -162,32 +165,32 @@ main {
 
 .start-again a {
     font-size: 22px;
-    color:#A63348;
-    background-color:#F2C53D;
+    color: #a63348;
+    background-color: #f2c53d;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Patrick Hand", cursive;
 }
 
-.start-again-small{
+.start-again-small {
     text-align: center;
     padding-top: 30px;
 }
 
 .start-again-small a {
     font-size: 22px;
-    color:#A63348;
-    background-color:#F28705;
+    color: #a63348;
+    background-color: #f28705;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Patrick Hand", cursive;
 }
 
 /*-----------------------------------------------------------rules.html*/
 
-.rules-list li{
-    color:#A63348;
-    font-family: 'Patrick Hand', cursive;
+.rules-list li {
+    color: #a63348;
+    font-family: "Patrick Hand", cursive;
     font-size: 24px;
     padding: 5px;
 }
@@ -197,8 +200,8 @@ main {
 }
 
 .rules-header {
-    color:#5259D9;
-    font-family: 'Patrick Hand', cursive;
+    color: #5259d9;
+    font-family: "Patrick Hand", cursive;
     font-size: 35px;
     margin-top: 100px;
     text-align: center;
@@ -217,7 +220,7 @@ main {
 }
 
 #leaderboard-link {
-    color:#A63348;
+    color: #a63348;
 }
 
 .row-rule-images {
@@ -229,12 +232,12 @@ main {
 .content-footer {
     margin: 0;
     padding: 0;
-    min-height:25px;
+    min-height: 25px;
 }
 .content-footer h2 {
     font-size: 14px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     color: #fff;
@@ -247,13 +250,30 @@ main {
 /*-----------------------------------------------------------Media Queries*/
 
 @media (max-width: 767px) {
-    .name-line {padding-top: 100px;}
-    .play-image {width: 100px; height: 100px;}
-    .move {width: 120px; height: 120px; margin: 0;}
-    #front-page-image {display: none;}
-    #colon {text-align: right;}
+    .name-line {
+        padding-top: 100px;
+    }
+    .play-image {
+        width: 100px;
+        height: 100px;
+    }
+    .move {
+        width: 120px;
+        height: 120px;
+        margin: 0;
+    }
+    #front-page-image {
+        display: none;
+    }
+    #colon {
+        text-align: right;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1160px) {
-    .move {width: 180px; height: 180px; margin: 0;}
+    .move {
+        width: 180px;
+        height: 180px;
+        margin: 0;
+    }
 }
