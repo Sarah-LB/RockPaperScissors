@@ -136,7 +136,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Fixed Bugs
 -   When the player selected their image, the game alerts were appearing before the images appeared in the boxes.  The image sizes were reduced but this did not solve the issue.  After much research, a Timeout was set to allow the DOM to be updated before the alert is generated.
 -   When the computerChoice was set to paper, the alerts were not appearing.  By logging each variable and play outcome it became apparent that once the computerChoice was set to paper, the rest of the script was not running.  There was a return at the end of the if else statement that needed to be removed.
--   The game play icons get slightly larger when hovered over.  This was originally implemented using javascript mouseenter and mouseleave but caused problems on touchscreen devices so was replaces with css hover.
+-   The game play icons get slightly larger when hovered over.  This was originally implemented using javascript mouseenter and mouseleave but caused problems on touchscreen devices so was replaced with css hover.
+-   After the user pressed ok to accept the win/lose/draw alert, the play images from that round remained which made the next round of play less clear.  A callback was used on the alert to clear the play images from the boxes on the click of the ok button.
 
 ### Known Bugs
 

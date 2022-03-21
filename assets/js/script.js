@@ -68,26 +68,29 @@ function checkWhoWins(playerChoice, computerChoice) {
 
     if (playerChoice === computerChoice) {
         setTimeout(function () {
-            Swal.fire("It's a draw!");
-            $("#player-move").css("background-image", "");
-            $("#computer-move").css("background-image", "");
+            Swal.fire("It's a draw!").then(function() {
+                $("#player-move").css("background-image", "");
+                $("#computer-move").css("background-image", "");
+            });
         }, 500);
         return;
     }
     const playerChoiceConfig = SYMBOL_CONFIG.find((eachSymbolConfig) => eachSymbolConfig.id === playerChoice);
     if (playerChoiceConfig.winsOver === computerChoice) {
         setTimeout(function () {
-            Swal.fire("You won! Keep it up!");
+            Swal.fire("You won! Keep it up!").then(function() {
+                $("#player-move").css("background-image", "");
+                $("#computer-move").css("background-image", "");     
+            });
             document.getElementById("player-score").innerText = ++playerScore;
-            $("#player-move").css("background-image", "");
-            $("#computer-move").css("background-image", "");
         }, 500);
     } else {
         setTimeout(function () {
-            Swal.fire("Oh no, you lost! Try again!");
+            Swal.fire("Oh no, you lost! Try again!").then(function() {
+                $("#player-move").css("background-image", "");
+                $("#computer-move").css("background-image", "");
+            });
             document.getElementById("computer-score").innerText = ++computerScore;
-            $("#player-move").css("background-image", "");
-            $("#computer-move").css("background-image", "");
         }, 500);
     }
 }

@@ -100,9 +100,9 @@ main {
 /*-----------------------------------------------------------Game.html*/
 
 .play-image:hover {
-    width: 210px;
-    height: 210px;
-}
+        width: 210px;
+        height: 210px;
+    }
 
 .move {
     border: 5px solid;
@@ -275,7 +275,8 @@ main {
     }
 
     .play-image:hover {
-        width: inherit;
+        width: 100px;
+        height: 100px;
     }
 }
 
