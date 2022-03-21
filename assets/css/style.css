@@ -99,11 +99,6 @@ main {
 
 /*-----------------------------------------------------------Game.html*/
 
-.play-image:hover {
-        width: 210px;
-        height: 210px;
-    }
-
 .move {
     border: 5px solid;
     width: 300px;
@@ -285,5 +280,12 @@ main {
         width: 180px;
         height: 180px;
         margin: 0;
+    }
+}
+
+@media (min-width: 1160px) {
+    .play-image:hover {
+        width: 210px;
+        height: 210px;
     }
 }
