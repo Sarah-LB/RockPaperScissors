@@ -195,12 +195,12 @@ main {
 .rules-list li {
     color: #a63348;
     font-family: "Patrick Hand", cursive;
-    font-size: 24px;
+    font-size: 26px;
     padding: 5px;
 }
 
 #hierarchy {
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .rules-header {

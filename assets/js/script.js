@@ -68,7 +68,7 @@ function checkWhoWins(playerChoice, computerChoice) {
 
     if (playerChoice === computerChoice) {
         setTimeout(function () {
-            Swal.fire("It's a draw!").then(function() {
+            Swal.fire("It's a draw!").then(function () {
                 $("#player-move").css("background-image", "");
                 $("#computer-move").css("background-image", "");
             });
@@ -78,15 +78,15 @@ function checkWhoWins(playerChoice, computerChoice) {
     const playerChoiceConfig = SYMBOL_CONFIG.find((eachSymbolConfig) => eachSymbolConfig.id === playerChoice);
     if (playerChoiceConfig.winsOver === computerChoice) {
         setTimeout(function () {
-            Swal.fire("You won! Keep it up!").then(function() {
+            Swal.fire("You won! Keep it up!").then(function () {
                 $("#player-move").css("background-image", "");
-                $("#computer-move").css("background-image", "");     
+                $("#computer-move").css("background-image", "");
             });
             document.getElementById("player-score").innerText = ++playerScore;
         }, 500);
     } else {
         setTimeout(function () {
-            Swal.fire("Oh no, you lost! Try again!").then(function() {
+            Swal.fire("Oh no, you lost! Try again!").then(function () {
                 $("#player-move").css("background-image", "");
                 $("#computer-move").css("background-image", "");
             });
@@ -95,8 +95,15 @@ function checkWhoWins(playerChoice, computerChoice) {
     }
 }
 
-//start again button
+//start again buttons
 $("#start-again").click(function () {
+    document.getElementById("player-score").innerText = 0;
+    document.getElementById("computer-score").innerText = 0;
+    $("#player-move").css("background-image", "");
+    $("#computer-move").css("background-image", "");
+});
+
+$("#start-small").click(function () {
     document.getElementById("player-score").innerText = 0;
     document.getElementById("computer-score").innerText = 0;
     $("#player-move").css("background-image", "");
