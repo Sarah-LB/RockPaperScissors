@@ -1,8 +1,8 @@
 <h1 align="center">Rock Paper Scissors</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://sarah-lb.github.io/MySecondProject/)
 
-This site has been created for my Milestone Project 2: Interactive Frontend Development.  It is an online Rock Paper Scissotrs game for the purpose of having fun!
+This site has been created for my Milestone Project 2: Interactive Frontend Development.  It is an online Rock Paper Scissors game for the purpose of having fun!
 
 ## User Experience (UX)
 
@@ -17,18 +17,17 @@ This site has been created for my Milestone Project 2: Interactive Frontend Deve
     -   #### Returning Visitor and Frequent User Goals
 
         1. As a Returning Visitor, I want to play and have fun.
-        2. As a Returning Visitor, I want to see if my top score from my last visit is still on the leaderboard.
-        3. As a Returning Visitor, I want to find social media links.
+        2. As a Returning Visitor, I want to find social media links.
 
     -   #### Developer and Site Owner Goals
 
         1. As a Developer/Site Owner, I want to build an interactive frontend site.
-        2. As a Developer/Site Owner, I want to have fun playing on the game and attempting to get on the leaderboard.
+        2. As a Developer/Site Owner, I want to have fun playing on the game.
         3. As a Returning Visitor, I want to make my social media links accessible in order to promote any other games I build.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used in Rock Paper Scissors are a warm dark orange and deep purpley blue.  These were inspired by the [Adobe Color library](https://color.adobe.com/trends/Game-design).  Yellow is associated with playfulness, happiness and fun, which suggests it would promote appropriate emotions in the user.  Blue promotes relaxation whilst orange symbolises energy, friendliness and action.
+        -   The four main colours used in Rock Paper Scissors are a mustard yellow, warm orange, dark red and deep purpley blue.  These were inspired by the [Adobe Color library](https://color.adobe.com/trends/Game-design).  Yellow is associated with playfulness, happiness and fun, which suggests it would promote appropriate emotions in the user.  Blue promotes relaxation whilst orange symbolises energy, friendliness and action.
     -   #### Typography
         -   The Patrick Hand font is the main font used throughout the whole website with Cursive as the fallback font in case the font isn't being imported into the site correctly. Patrick Hand is a clean and clear font with the casual hand-written style adding a more fun and friendly feel.
     -   #### Imagery
@@ -36,11 +35,11 @@ This site has been created for my Milestone Project 2: Interactive Frontend Deve
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - [View](assets/images/landing-page.png)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Game Play Wireframe - [View](assets/images/play-game.png)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   How to Play Wireframe - [View](assets/images/how-to-play.png)
 
 ## Features
 
