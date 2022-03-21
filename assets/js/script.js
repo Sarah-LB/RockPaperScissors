@@ -87,21 +87,27 @@ function checkWhoWins(playerChoice, computerChoice) {
 
     if(playerChoice === computerChoice) {
         setTimeout(function(){
-            alert("It's a draw!");
+            Swal.fire("It's a draw!");
+            $("#player-move").css("background-image", "");
+            $("#computer-move").css("background-image", "");
         },500);
         return;
     }
     const playerChoiceConfig = SYMBOL_CONFIG.find(eachSymbolConfig => eachSymbolConfig.id === playerChoice);
     if(playerChoiceConfig.winsOver === computerChoice) {
         setTimeout(function(){
-            alert("You won! Keep going :D");
+            Swal.fire("You won! Keep it up!");
             document.getElementById("player-score").innerText=++playerScore;
+            $("#player-move").css("background-image", "");
+            $("#computer-move").css("background-image", "");
         },500);
         
     } else {
         setTimeout(function(){
-            alert("Oh no, you lost! Keep going, try again!");
+            Swal.fire("Oh no, you lost! Keep going, try again!");
             document.getElementById("computer-score").innerText=++computerScore;
+            $("#player-move").css("background-image", "");
+            $("#computer-move").css("background-image", "");
         },500);
         
     }

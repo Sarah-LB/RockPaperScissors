@@ -172,8 +172,6 @@ main {
     font-family: 'Patrick Hand', cursive;
 }
 
-
-
 /*-----------------------------------------------------------rules.html*/
 
 .rules-list li{
@@ -209,6 +207,10 @@ main {
 
 #leaderboard-link {
     color:#A63348;
+}
+
+.row-rule-images {
+    list-style-type: none;
 }
 
 /*-----------------------------------------------------------Footer*/

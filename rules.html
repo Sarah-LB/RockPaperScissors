@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS | Let's Play</title>
 
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="sweetalert2.min.js"></script>
+        <link rel="stylesheet" href="sweetalert2.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
@@ -47,17 +50,11 @@
             <div class="col-md-7 offset-md-3 rules-list">
                 <ol>
                     <li>Choose your play: rock, paper or scissors.</li>
-                        <div class="row no-gutters row-rule-images">
-                            <div class="col-4 col-md-2">
-                                <img src="assets/images/rock.jpg" alt="rock" class="rule-image">
-                            </div>
-                            <div class="col-4 col-md-2">
-                                <img src="assets/images/paper.jpg" alt="paper" class="rule-image">
-                            </div>
-                            <div class="col-4 col-md-2">
-                                <img src="assets/images/scissors.jpg" alt="scissors" class="rule-image">
-                            </div>
-                        </div>
+                    <li class="row-rule-images">
+                        <span><img src="assets/images/rock.jpg" alt="rock" class="rule-image"></span>
+                        <span><img src="assets/images/paper.jpg" alt="paper" class="rule-image"></span>
+                        <span><img src="assets/images/scissors.jpg" alt="scissors" class="rule-image"></span>
+                    </li>
                     <li>The computer will then choose its play at random from rock, paper or scissors.</li>
                     <li><span id="hierarchy">Rock beats scissors, scissors beat paper and paper beats rock.</span></li>
                     <li>You will earn one point if you win and zero points if you lose.</li>
