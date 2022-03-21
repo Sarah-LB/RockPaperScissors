@@ -1,44 +1,3 @@
-//Player's chosen symbol appears in play boxes
-
-$(".play-image").click(function () {
-    $("#player-move").css("background-image", "");
-    $("#computer-move").css("background-image", "");
-
-    var playerMove;
-
-    if ($(this).attr("id") === "rock") {
-        $("#player-move").css("background-image", "url('assets/images/rock.jpg')");
-        playerMove = "rock";
-    } else if ($(this).attr("id") === "paper") {
-        $("#player-move").css("background-image", "url('assets/images/paper.jpg')");
-        playerMove = "paper";
-    } else if ($(this).attr("id") === "scissors") {
-        $("#player-move").css("background-image", "url('assets/images/scissors.jpg')");
-        playerMove = "scissors";
-    } else {
-        playerMove = "none";
-    }
-
-    runGame(playerMove);
-});
-
-//Computer symbol generated
-
-function runGame(playerMove) {
-    symbols = ["rock", "paper", "scissors"];
-    var computerMove = symbols[Math.floor(Math.random() * symbols.length)];
-
-    if (playerMove !== "none" && computerMove === "scissors") {
-        $("#computer-move").css("background-image", "url('assets/images/scissors.jpg')");
-    } else if (playerMove !== "none" && computerMove === "rock") {
-        $("#computer-move").css("background-image", "url('assets/images/rock.jpg')");
-    } else if (playerMove !== "none" && computerMove === "paper") {
-        $("#computer-move").css("background-image", "url('assets/images/paper.jpg')");
-    }
-
-    checkWhoWins(playerMove, computerMove);
-}
-
 const SYMBOL_CONFIG = [
     {
         id: "rock",
@@ -59,6 +18,48 @@ const SYMBOL_CONFIG = [
         winsOver: "paper",
     },
 ];
+
+
+//Player's chosen symbol appears in play boxes
+    
+function selectUserSymbol() {
+    $("#player-move").css("background-image", "");
+    $("#computer-move").css("background-image", "");
+
+    var playerMove;
+
+    if ($(this).attr("id") === "rock") {
+        $("#player-move").css("background-image", "url('assets/images/rock.jpg')");
+        playerMove = "rock";
+    } else if ($(this).attr("id") === "paper") {
+        $("#player-move").css("background-image", "url('assets/images/paper.jpg')");
+        playerMove = "paper";
+    } else if ($(this).attr("id") === "scissors") {
+        $("#player-move").css("background-image", "url('assets/images/scissors.jpg')");
+        playerMove = "scissors";
+    } else {
+        playerMove = "none";
+    }
+
+    runGame(playerMove);
+}
+
+//Computer symbol generated
+
+function runGame(playerMove) {
+    symbols = ["rock", "paper", "scissors"];
+    var computerMove = symbols[Math.floor(Math.random() * symbols.length)];
+
+    if (playerMove !== "none" && computerMove === "scissors") {
+        $("#computer-move").css("background-image", "url('assets/images/scissors.jpg')");
+    } else if (playerMove !== "none" && computerMove === "rock") {
+        $("#computer-move").css("background-image", "url('assets/images/rock.jpg')");
+    } else if (playerMove !== "none" && computerMove === "paper") {
+        $("#computer-move").css("background-image", "url('assets/images/paper.jpg')");
+    }
+
+    checkWhoWins(playerMove, computerMove);
+}
 
 //Check who wins and increment scores
 
@@ -95,17 +96,20 @@ function checkWhoWins(playerChoice, computerChoice) {
     }
 }
 
-//start again buttons
-$("#start-again").click(function () {
-    document.getElementById("player-score").innerText = 0;
-    document.getElementById("computer-score").innerText = 0;
-    $("#player-move").css("background-image", "");
-    $("#computer-move").css("background-image", "");
-});
+// Start again button to refresh scores
 
-$("#restart").on('click', function () {
+function refreshScore() {
     document.getElementById("player-score").innerText = 0;
     document.getElementById("computer-score").innerText = 0;
     $("#player-move").css("background-image", "");
     $("#computer-move").css("background-image", "");
-});
+} 
+
+
+function bindEvents() {
+    $(".play-image").click(selectUserSymbol);
+    $("#start-again").click(refreshScore);
+    $("#restart").on('click', refreshScore);
+}
+
+document.on('DomComponentLoaded', bindEvents());
