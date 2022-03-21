@@ -16,7 +16,7 @@ $(".play-image").click(function(){
     $("#player-move").css("background-image", "");
     $("#computer-move").css("background-image", "");
 
-    let playerMove;
+    var playerMove;
 
     if ($(this).attr("id")==="rock") {
         $("#player-move").css("background-image", "url('assets/images/rock.jpg')");
@@ -38,7 +38,7 @@ $(".play-image").click(function(){
 //Computer symbol generated
 
 function runGame(playerMove){
-    symbols = ["rock", "paper", "scissors"]
+    symbols = ["rock", "paper", "scissors"];
     var computerMove = symbols[Math.floor(Math.random()*symbols.length)];
 
     if (playerMove!=="none" && computerMove === "scissors") {
@@ -51,7 +51,7 @@ function runGame(playerMove){
 
     checkWhoWins(playerMove, computerMove);
 
-};
+}
 
 
 

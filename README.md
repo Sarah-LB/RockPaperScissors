@@ -43,9 +43,9 @@ This site has been created for my Milestone Project 2: Interactive Frontend Deve
 
 ## Features
 
--   Responsive on all device sizes
+-   The site is responsive on all device sizes
 
--   Interactive elements
+-   There are interactive elements to the game
 
 ## Technologies Used
 
@@ -60,102 +60,84 @@ This site has been created for my Milestone Project 2: Interactive Frontend Deve
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the game play icons to enlarge the images while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Indie Flower' and 'Patrick Hand' fonts.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on all pages throughout the website to add icons for social media.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - jQuery came with Bootstrap to make the navbar responsive.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
+1. [SweetAlert2](https://sweetalert2.github.io/)
+    - SweetAlert2 was used to make more attractive gamne alerts.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [JavaScript Validator](https://jshint.com/) - [Results]()
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [JavaScript Validator](https://jshint.com/)
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn how to play the game.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        1. Upon entering the site, users are automatically greeted with two clear and easily readable buttons to go to the page of their choice.
+        2. The how to play instructions are clear and explain to the user the rules of the game.
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        1. At the top of each page there is a clean navigation bar, each link describes the page they will end up at clearly.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    3. As a First Time Visitor, I want to locate the social media links to see their followings on social media and find any other games that are available.
+        
+        1. The user can find social media links prominently poisitioned at the top of the page, in the navbar, on every page.
 
--   #### Returning Visitor Goals
+-   #### Returning Visitor and Frequent Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I want to play and have fun.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+        1. The game is easy to play and the site is easy to navigate so returning visitors can get back to the game immediately.
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    2. As a Returning Visitor, I want to find social media links.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+        1. The user can find social media links prominently poisitioned at the top of the page, in the navbar, on every page.
+    
+-   #### Developer and Site Owner Goals
 
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+    1. As a Developer/Site Owner, I want to build an interactive frontend site.
+        
+        1. Players muct interact with the site in order to play the game.
 
--   #### Frequent User Goals
+    2. As a Developer/Site Owner, I want to have fun playing on the game.
+        
+        1. The game is fun and intuitive.
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+    3. As a Returning Visitor, I want to make my social media links accessible in order to promote any other games I build.
+        1. Social media links are prominently poisitioned at the top of the page, in the navbar, on every page.
 
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, Samsung Galaxy A71 & iPad.
+-   A large amount of testing was done to ensure that all pages were linking correctly and game play was working.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Fixed Bugs
--   When the player selected their image, the game alerts were appearing before the images.  The image sizes were reduced but this did not solve the issue.  After much research, a Timeout was set to allow the DOM to be updated before the alert is generated.
+-   When the player selected their image, the game alerts were appearing before the images appeared in the boxes.  The image sizes were reduced but this did not solve the issue.  After much research, a Timeout was set to allow the DOM to be updated before the alert is generated.
 -   When the computerChoice was set to paper, the alerts were not appearing.  By logging each variable and play outcome it became apparent that once the computerChoice was set to paper, the rest of the script was not running.  There was a return at the end of the if else statement that needed to be removed.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   No known bugs.
 
 ## Deployment
 
@@ -163,25 +145,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/MySecondProject)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://sarah-lb.github.io/MySecondProject/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/MySecondProject)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/MySecondProject)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -209,32 +191,30 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [SweetAlert2](https://sweetalert2.github.io/): SweetAlert2 was used to make more attractive gamne alerts.
 
--   The README code was taken from the [Code Institute Sample ReadMe](https://github.com/Code-Institute-Solutions/SampleREADME/commit/982e3b0e0086ced89d9a643d9e4d9d0c6f938ec2) and adapted.
+-   The README code was taken and adapted from the [Code Institute Sample ReadMe](https://github.com/Code-Institute-Solutions/SampleREADME/commit/982e3b0e0086ced89d9a643d9e4d9d0c6f938ec2).
 
 -   [Box shadows](https://getcssscan.com/css-box-shadow-examples): Used code to put box shadows on buttons on index.html page.
 
--   Navbar code taken from [W3 Schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp) and edited.
+-   Navbar code taken and edited from [W3 Schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp).
 
 ### Content
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](https://www.trajectorywebdesign.com/blog/web-design-color-psychology/)
+-   Psychological properties of colours text in the README.md was found [here](https://www.trajectorywebdesign.com/blog/web-design-color-psychology/).
 
 ### Media
 
--   Rock image created by [macrovector](https://www.freepik.com/macrovector) and sourced from [Freepik](https://www.freepik.com/vectors/clip-art)
--   Paper image created by [brgfx](https://www.freepik.com/brgfx) and sourced from [Freepik](https://www.freepik.com/vectors/clip-art)
-- Scissors image created by [brgfx](https://www.freepik.com/brgfx) and sourced from [Freepik](https://www.freepik.com/vectors/clip-art)
+-   Rock image created by [macrovector](https://www.freepik.com/macrovector) and sourced from [Freepik](https://www.freepik.com/vectors/clip-art).
+-   Paper image created by [brgfx](https://www.freepik.com/brgfx) and sourced from [Freepik](https://www.freepik.com/vectors/clip-art).
+- Scissors image created by [brgfx](https://www.freepik.com/brgfx) and sourced from [Freepik](https://www.freepik.com/vectors/clip-art).
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentors, Akshat Garg and Narender Singh, for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their guidance.
