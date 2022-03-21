@@ -273,6 +273,10 @@ main {
     #colon {
         text-align: right;
     }
+
+    .play-image:hover {
+        width: inherit;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1160px) {
