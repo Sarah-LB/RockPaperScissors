@@ -103,7 +103,7 @@ $("#start-again").click(function () {
     $("#computer-move").css("background-image", "");
 });
 
-$("#start-small").click(function () {
+$("#restart").click(function () {
     document.getElementById("player-score").innerText = 0;
     document.getElementById("computer-score").innerText = 0;
     $("#player-move").css("background-image", "");
