@@ -84,7 +84,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsarah-lb.github.io%2FMySecondProject%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 -   [JavaScript Validator](https://jshint.com/) - [Results](assets/images/javaScript-validation.png)
 -   [HTML, CSS and JavaScript formatter](https://webformatter.com/)
--   Lighthouse used for responsiveness, compatability, accessibility etc. - [Results]()
+-   Lighthouse used for responsiveness, compatability, accessibility etc. - [Results](assets/images/lighthouse-results.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -148,6 +148,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   Use [Onboarding API](https://introjs.com/) to replace How To Play page and make rules more engaging.
 -   Use [Restdb](https://restdb.io/) to store and retrieve user scores and create a leaderboard.
+-   Create a timer so users must select their play within a timeframe or lose that round.
 
 ## Deployment
 

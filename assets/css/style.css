@@ -293,6 +293,9 @@ main {
     .socialitem-footer {
         font-size: 16px;
     }
+    .logo-header {
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1160px) {
