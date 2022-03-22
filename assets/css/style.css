@@ -40,7 +40,7 @@ main {
 }
 
 .row-image {
-    padding: 30px 0 0 0;
+    padding: 30px 0 20px 0;
 }
 
 .play-image,
@@ -238,17 +238,18 @@ main {
     padding: 0;
     min-height: 25px;
 }
-.content-footer h2 {
+.footer-text {
     font-size: 14px;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     color: #fff;
+    text-align: right;
 }
 
 .attribution {
-    text-align: right;
+    font-size: 8px;
 }
 
 /*-----------------------------------------------------------Media Queries*/
