@@ -212,6 +212,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Navbar code taken and edited from [W3 Schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp).
 
+-   Repository generated from Code-Institute-Org/gitpod-full-template.
+
 ### Content
 
 -   All content was written by the developer.
