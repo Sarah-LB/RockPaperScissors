@@ -142,12 +142,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   Alerts for SweetAlert2 in the console but all alerts working as intended.
+-   No known bugs.
 
 ### Planned Improvements
 
 -   Use [Onboarding API](https://introjs.com/) to replace How To Play page and make rules more engaging.
--   Use [Restdb](https://restdb.io/) to store and retrieve user scores and create a leaderboard.
+-   Use [Restdb](https://restdb.io/) to store and retrieve user scores and create a leaderboard.  Users would enter username on starting game.
 -   Create a timer so users must select their play within a timeframe or lose that round.
 
 ## Deployment
