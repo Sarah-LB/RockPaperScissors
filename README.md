@@ -82,7 +82,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarah-lb.github.io%2FMySecondProject%2F)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsarah-lb.github.io%2FMySecondProject%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
--   [JavaScript Validator](https://jshint.com/)
+-   [JavaScript Validator](https://jshint.com/) - [Results](assets/images/javaScript-validation.png)
 -   [HTML, CSS and JavaScript formatter](https://webformatter.com/)
 -   Lighthouse used for responsiveness, compatability, accessibility etc. - [Results]()
 
