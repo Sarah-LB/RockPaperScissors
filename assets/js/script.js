@@ -19,7 +19,6 @@ const SYMBOL_CONFIG = [
     },
 ];
 
-
 //Player's chosen symbol appears in play boxes
     
 function selectUserSymbol() {
@@ -58,12 +57,12 @@ function runGame(playerMove) {
         $("#computer-move").css("background-image", "url('assets/images/paper.jpg')");
     }
 
-    checkWhoWins(playerMove, computerMove);
+    decideWinner(playerMove, computerMove);
 }
 
 //Check who wins and increment scores
 
-function checkWhoWins(playerChoice, computerChoice) {
+function decideWinner(playerChoice, computerChoice) {
     let playerScore = parseInt(document.getElementById("player-score").innerText);
     let computerScore = parseInt(document.getElementById("computer-score").innerText);
 
@@ -104,7 +103,6 @@ function refreshScore() {
     $("#player-move").css("background-image", "");
     $("#computer-move").css("background-image", "");
 } 
-
 
 function bindEvents() {
     $(".play-image").click(selectUserSymbol);
