@@ -20,7 +20,7 @@ const SYMBOL_CONFIG = [
 ];
 
 //Player's chosen symbol appears in play boxes
-    
+
 function selectUserSymbol() {
     $("#player-move").css("background-image", "");
     $("#computer-move").css("background-image", "");
@@ -102,12 +102,12 @@ function refreshScore() {
     document.getElementById("computer-score").innerText = 0;
     $("#player-move").css("background-image", "");
     $("#computer-move").css("background-image", "");
-} 
+}
 
 function bindEvents() {
     $(".play-image").click(selectUserSymbol);
     $("#start-again").click(refreshScore);
-    $("#restart").on('click', refreshScore);
+    $("#restart").on("click", refreshScore);
 }
 
-document.on('DomComponentLoaded', bindEvents());
+$(document).on("DomContentLoaded", bindEvents());

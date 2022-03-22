@@ -40,14 +40,14 @@ main {
 }
 
 .row-image {
-    padding: 30px 0 20px 0;
+    padding: 20px 0;
 }
 
 .play-image,
 .index-image {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     object-fit: contain;
     background-color: #fff;
 }
@@ -83,18 +83,8 @@ main {
     color: #f2c53d;
 }
 
-#collapsibleNavbar {
+.collapsibleNavbar {
     background-color: #5259d9;
-}
-
-.socialitem-header {
-    font-size: 30px;
-    padding: 0;
-}
-
-.socialitem-header a {
-    color: #fff;
-    padding: 0 5px;
 }
 
 /*-----------------------------------------------------------Game.html*/
@@ -231,6 +221,10 @@ main {
     list-style-type: none;
 }
 
+.rules-button {
+    padding-bottom: 60px;
+}
+
 /*-----------------------------------------------------------Footer*/
 
 .content-footer {
@@ -238,7 +232,17 @@ main {
     padding: 0;
     min-height: 25px;
 }
-.footer-text {
+.footer-text h2 {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.attribution h2 {
     font-size: 14px;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
@@ -248,8 +252,15 @@ main {
     text-align: right;
 }
 
-.attribution {
-    font-size: 8px;
+.socialitem-footer {
+    font-size: 30px;
+    padding: 0;
+    display: inline;
+}
+
+.socialitem-footer a {
+    color: #fff;
+    padding: 0 5px;
 }
 
 /*-----------------------------------------------------------Media Queries*/
@@ -272,6 +283,15 @@ main {
     }
     #colon {
         text-align: right;
+    }
+    .attribution h2,
+    .footer-text h2 {
+        font-size: 8px;
+        margin: 0;
+        padding: 0;
+    }
+    .socialitem-footer {
+        font-size: 16px;
     }
 }
 

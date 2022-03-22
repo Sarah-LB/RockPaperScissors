@@ -80,7 +80,7 @@ This site has been created for my Milestone Project 2: Interactive Frontend Deve
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C Markup Validator](https://validator.w3.org/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 -   [JavaScript Validator](https://jshint.com/)
 -   [HTML, CSS and JavaScript formatter](https://webformatter.com/)
@@ -101,7 +101,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a First Time Visitor, I want to locate the social media links to see their followings on social media and find any other games that are available.
         
-        1. The user can find social media links prominently poisitioned at the top of the page, in the navbar, on every page.
+        1. The user can find social media links clearly poisitioned at the bottom of the page, in the footer, on every page.
 
 -   #### Returning Visitor and Frequent Visitor Goals
 
@@ -111,7 +111,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     2. As a Returning Visitor, I want to find social media links.
 
-        1. The user can find social media links prominently poisitioned at the top of the page, in the navbar, on every page.
+        1. The user can find social media links prominently poisitioned at the bottom of the page, in the footer, on every page.
     
 -   #### Developer and Site Owner Goals
 
@@ -124,7 +124,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The game is fun and intuitive.
 
     3. As a Returning Visitor, I want to make my social media links accessible in order to promote any other games I build.
-        1. Social media links are prominently poisitioned at the top of the page, in the navbar, on every page.
+        
+        1. Social media links are prominently poisitioned at the bottom of the page, in the footer, on every page.
 
 ### Further Testing
 
@@ -142,6 +143,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   Alerts for SweetAlert2 in the console but all alerts working as intended.
+
+### Planned Improvements
+
+-   Use [Onboarding API](https://introjs.com/) to replace How To Play page and make rules more engaging.
+-   Use [Restdb](https://restdb.io/) to store and retrieve user scores and create a leaderboard.
 
 ## Deployment
 
