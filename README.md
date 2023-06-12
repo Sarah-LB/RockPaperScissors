@@ -1,6 +1,6 @@
 <h1 align="center">Rock Paper Scissors</h1>
 
-[View the live project here.](https://sarah-lb.github.io/MySecondProject/)
+[View the live project here.](https://sarah-lb.github.io/RockPaperScissors/)
 
 This site has been created for my Milestone Project 2: Interactive Frontend Development.  It is an online Rock Paper Scissors game for the purpose of having fun!
 
